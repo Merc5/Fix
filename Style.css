@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+    font-family: serif;
+    font-size: 17px;
+    color: blue;
+    line-height: 1.6;
+}
+
+.showcase {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.showcase h1 {
+    font-size: 100px;
+    line-height: 1.2;
+
+}
+
+.showcase h2 {
+    font-size: 100px;
+}
+
+.showcase p {
+    font-size: 50px;
+}
+
+.showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.showcase .button:hover {
+    background: beige;
+    color: rgb(147, 182, 182);
+}
+  
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Add flex: 1 to make this div fill up the available space */
+    background-color: lightblue;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 40px;
+    
+  }
+  
+@media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+}
+    
+  
+  
